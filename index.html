@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inactive">
+        <h2>Choose your city</h2>
+        <form action="GET">
+            <label for="city">
+                <input type="text" name="city" id="city">
+            </label>
+        </form>
+    </div>
+    <main >
+        <div class="loader">
+            <div class="loaderBar"></div>
+        </div>
+        <div class="weather inactive">
+            <h1>XX</h1>
+            <aside>city</aside>
+            <p>info</p>
+        </div>
+    </main>
+</body>
+</html>
