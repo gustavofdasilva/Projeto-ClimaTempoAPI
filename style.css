@@ -9,15 +9,6 @@
 
 body {
     background-color:#ffc099;
-    background-image:
-    radial-gradient(at 92% 56%, hsla(218,77%,78%,1) 0px, transparent 50%),
-    radial-gradient(at 59% 26%, hsla(337,91%,68%,1) 0px, transparent 50%),
-    radial-gradient(at 57% 85%, hsla(183,77%,75%,1) 0px, transparent 50%),
-    radial-gradient(at 72% 40%, hsla(98,87%,63%,1) 0px, transparent 50%),
-    radial-gradient(at 20% 87%, hsla(118,70%,76%,1) 0px, transparent 50%),
-    radial-gradient(at 20% 15%, hsla(23,84%,61%,1) 0px, transparent 50%),
-    radial-gradient(at 24% 34%, hsla(273,93%,63%,1) 0px, transparent 50%);
-
     height: 100vh;
     width: 100vw;
 
