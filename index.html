@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="inactive">
+    
+    <div class="chooseCity">
         <h2>Choose your city</h2>
-        <form action="GET">
-            <label for="city">
-                <input type="text" name="city" id="city">
-            </label>
-        </form>
+        <div>
+            <input type="text" name="changeCity" class="inputCity">
+            <button onclick="changeCity(this.id)" id="firstCity"></button>
+        </div>
     </div>
-    <main >
+    <div class="changeCity inactive">
+        <input type="text" name="changeCity" class="inputChangeCity">
+        <button onclick="changeCity(this.id)" id="changeCity"></button>
+    </div>
+    <main class="inactive">
         <div class="loader">
             <div class="loaderBar"></div>
         </div>
